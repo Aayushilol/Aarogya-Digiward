@@ -12,9 +12,10 @@ import numpy as np
 def apply_custom_css():
     st.markdown("""
     <style>
+    /* We are keeping the header visible now so the sidebar arrow (>) appears! */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    
     div.stButton > button:first-child {
         background-color: #0068c9;
         color: white; border-radius: 8px; border: none;
